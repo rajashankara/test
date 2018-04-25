@@ -21,13 +21,18 @@ def isAnagram(str1, str2):
 
 if __name__ == "__main__":
 
-    wd1 = input("input sring one")
+    wd1 = input("input string one")
     wd2 = input("input string two")
 
 
     isAnagram(wd1,wd2)
 
     if sorted(wd1) == sorted(wd2):
+        print(sorted(wd1))
+        print(sorted(wd2))
         print("Anagram")
     else:
         print("Not an Anagram")
+
+    for i in range(len(wd1)):
+        print(wd1[i])
