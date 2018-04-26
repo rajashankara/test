@@ -17,6 +17,7 @@ def read_file(filename):
                 uidHash[ls[2]] = ln
             else:
                 print("Duplicate key")
+                print("Duplicate UID are in:")
                 print(uidHash[ls[2]])
                 print(ln)
     except IOError:
