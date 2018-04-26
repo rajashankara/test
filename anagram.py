@@ -19,6 +19,14 @@ def isAnagram(str1, str2):
     else:
         print("It is not an Anagram")
 
+def isAnagram2(str1, str2):
+    if sorted(str1) == sorted(str1):
+        print(sorted(str1))
+        print(sorted(str1))
+        print("Anagram")
+    else:
+        print("Not an Anagram")
+
 if __name__ == "__main__":
 
     wd1 = input("input string one")
@@ -26,13 +34,5 @@ if __name__ == "__main__":
 
 
     isAnagram(wd1,wd2)
+    isAnagram2(wd1,wd2)
 
-    if sorted(wd1) == sorted(wd2):
-        print(sorted(wd1))
-        print(sorted(wd2))
-        print("Anagram")
-    else:
-        print("Not an Anagram")
-
-    for i in range(len(wd1)):
-        print(wd1[i])
