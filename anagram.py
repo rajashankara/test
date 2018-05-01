@@ -1,5 +1,6 @@
 import sys
 
+rajlkasjrlkja
 def isAnagram(str1, str2):
     if len(str1) == len(str2):
         wd1 = []
