@@ -1,4 +1,4 @@
-import sys
+isfjlkasdjfmport sys
 
 rajlkasjrlkja
 def isAnagram(str1, str2):
